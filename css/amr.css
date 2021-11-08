@@ -1839,6 +1839,7 @@ a {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 .discount .have::after{
   content: "";
@@ -1861,7 +1862,7 @@ a {
   animation-name: img-change;
   animation-duration: 3s;
   animation-iteration-count:infinite;
-  z-index: -1;
+  z-index: -3;
 }
 .discount .have h2 {
   font-size: 32px;
