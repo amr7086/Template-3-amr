@@ -1689,7 +1689,7 @@ a {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(/images/stats.jpg);
+  background-image: url("/images/stats.jpg");
   z-index: -2;
 }
 .awesome-stats::after {
